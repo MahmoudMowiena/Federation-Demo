@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.13.7",
+    "@apollo/gateway": "^2.10.1",
+    "@apollo/server": "^4.12.0",
+    "@apollo/subgraph": "^2.10.1",
+    "body-parser": "^2.2.0",
+    "cross-fetch": "^4.1.0",
+    "express": "^5.1.0",
+    "graphql": "^16.10.0",
+    "graphql-tag": "^2.12.6"
+  },
+  "scripts": {
+    "start:users": "ts-node users/index.ts",
+    "start:posts": "ts-node posts/index.ts",
+    "start:gateway": "ts-node gateway/index.ts"
+  }
+}

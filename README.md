@@ -67,22 +67,19 @@ Start the subgraphs:
 
 #### Terminal 1: Users subgraph
 ```bash
-cd users
-npm start
+npm run start:users
 ```
 
 #### Terminal 2: Posts subgraph
 ```bash
-cd posts
-npm start
+npm run start:posts
 ```
 
 Then start the gateway:
 
 #### Terminal 3: Gateway
 ```bash
-cd gateway
-npm start
+npm run start:gateway
 ```
 
 Once all services are running, access the unified GraphQL API at:

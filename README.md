@@ -65,13 +65,13 @@ npm install
 
 Start the subgraphs:
 
-# Terminal 1: Users subgraph
+#### Terminal 1: Users subgraph
 ```bash
 cd users
 npm start
 ```
 
-# Terminal 2: Posts subgraph
+#### Terminal 2: Posts subgraph
 ```bash
 cd posts
 npm start
@@ -79,7 +79,7 @@ npm start
 
 Then start the gateway:
 
-# Terminal 3: Gateway
+#### Terminal 3: Gateway
 ```bash
 cd gateway
 npm start
